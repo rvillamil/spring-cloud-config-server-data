@@ -1,3 +1,17 @@
 ---
+spring:
+   profiles: subject
+words: yo, tu, el , ella, ello
+welcomeMessage: Hello subject server!
 
-welcomeMessage: Hello DEFAULT environment!
+---
+spring:
+   profiles: verb
+words: vuela, salta, corre, llora
+welcomeMessage: Hello verbs server!
+
+---
+spring:
+   profiles: article
+words: un, uno, una, la, lo, le
+welcomeMessage: Hello articles server!
